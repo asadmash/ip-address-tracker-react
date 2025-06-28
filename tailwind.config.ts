@@ -2,10 +2,14 @@
 export default {
     content: [
       "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
+      "./src/**/*.{html,js,ts,jsx,tsx}",
     ],
     theme: {
-      extend: {},
+      extend: {
+        boxShadow: {
+          "infopanel": "rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px",
+        }
+      },
     },
     plugins: [],
   }
